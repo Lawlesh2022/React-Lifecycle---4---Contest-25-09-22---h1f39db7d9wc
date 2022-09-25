@@ -14,7 +14,7 @@ class App extends React.Component{
 
 
   render(){
-    this.state.count%2===0 ?
+    {this.state.count}%2===0 ?
     console.log(`Rendering with count:-${this.state.count}`):""
     
     return(
